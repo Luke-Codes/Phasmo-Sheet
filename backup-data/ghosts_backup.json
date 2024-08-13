@@ -12,8 +12,8 @@
             "hunt_sanity_high": "50%",
             "evidence": [
               "EMF 5",
-              "Caixa de Espíritos",
-              "Escrita"
+              "Spirit Box",
+              "Escrita Fantasma"
             ],
             "nightmare_evidence": null,
             "wiki": {
@@ -51,7 +51,7 @@
             "hunt_sanity_high": "50%",
             "evidence": [
               "EMF 5",
-              "Caixa de Espíritos",
+              "Spirit Box",
               "DOTs"
             ],
             "nightmare_evidence": null,
