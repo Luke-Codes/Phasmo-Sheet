@@ -595,7 +595,7 @@ function send_ghost_data_link(ghost){
 
         $(document.getElementById(ghost)).removeClass(readd_classes)
         data = `<b>${ghost}:<b>\n`
-        data += document.getElementById(ghost).querySelector(".ghost_evidence").innerText.trim().replaceAll("\n",", ") + (ghost == "The Mimic" ? ", *Ghost Orbs" : "") + "\n"
+        data += document.getElementById(ghost).querySelector(".ghost_evidence").innerText.trim().replaceAll("\n",", ") + (ghost == "The Mimic" ? ", *Orbe Fantasma" : "") + "\n"
         data += document.getElementById(ghost).querySelector(".ghost_behavior").innerText.replace("0 Evidence Tests >>","").trim()
         data = data.replace("Tells","\n<b>Tells:<b>\n")
         data = data.replace("Behaviors","\n<b>Behaviors:<b>\n")

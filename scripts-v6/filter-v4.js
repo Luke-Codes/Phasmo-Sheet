@@ -448,8 +448,8 @@ function filter(ignore_link=false){
         //Logic for mimic
         if (name == "The Mimic"){
             mimic_evi = evidence
-            nm_evidence = "Ghost Orbs"
-            mimic_nm_evi = "Ghost Orbs"
+            nm_evidence = "Orbe Fantasma"
+            mimic_nm_evi = "Orbe Fantasma"
         }
 
         //Check for los filter
@@ -870,7 +870,7 @@ function filter(ignore_link=false){
     }
 
     else if (num_evidences == "0"){
-        all_evidence.filter(evi => evi != 'Ghost Orbs').forEach(function(item){
+        all_evidence.filter(evi => evi != 'Orbe Fantasma').forEach(function(item){
             var checkbox = document.getElementById(item);
             $(checkbox).addClass("block")
             $(checkbox).find("#checkbox").removeClass(["good","bad","faded"])

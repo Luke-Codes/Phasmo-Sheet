@@ -78,7 +78,7 @@ const ZNLANG = {
         "dots":["thoughts"],
         "ultraviolet":["fingerprints","uv","evie","tv","heavy","you be"],
         "freezing":[],
-        "ghost orbs":["orbs","orb","forbes","ghost forbes","olives","knobs","stops"],
+        "Orbe Fantasma":["orbs","orb","forbes","ghost forbes","olives","knobs","stops"],
         "writing":['righting',"ryhming"],
         "spirit box":["spare box","beer box","red box","redbox","strip","strip box","spare parts","fairfax","fair fax"]
     },

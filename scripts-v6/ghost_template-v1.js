@@ -7,20 +7,20 @@ function titleCase(str) {
 evi_color = {
     "EMF 5": "#db4d48",
     "DOTs": "#2ccc29",
-    "Ultraviolet": "#ad8ce7",
-    "Freezing": "#9ae0f7",
-    "Ghost Orbs": "#dbd993",
-    "Writing": "#4d8ce3",
+    "Ultravioleta": "#ad8ce7",
+    "Baixa Temperatura": "#9ae0f7",
+    "Orbe Fantasma": "#dbd993",
+    "Escrita Fantasma": "#4d8ce3",
     "Spirit Box": "#d18c5e", 
 }
 
 evi_icons = {
     "EMF 5": "imgs/emf5-icon.png",
     "DOTs": "imgs/dots-icon.png",
-    "Ultraviolet": "imgs/fingerprints-icon.png",
-    "Freezing": "imgs/freezing-icon.png",
-    "Ghost Orbs": "imgs/orbs-icon.png",
-    "Writing": "imgs/writing-icon.png",
+    "Ultravioleta": "imgs/fingerprints-icon.png",
+    "Baixa Temperatura": "imgs/freezing-icon.png",
+    "Orbe Fantasma": "imgs/orbs-icon.png",
+    "Escrita Fantasma": "imgs/writing-icon.png",
     "Spirit Box": "imgs/spirit-box-icon.png", 
 }
 
@@ -64,7 +64,7 @@ class Ghost {
                 ${this.build_evidence_item(data.evidence[0])}
                 ${this.build_evidence_item(data.evidence[1])}
                 ${this.build_evidence_item(data.evidence[2])}
-                ${data.ghost == "The Mimic" ? this.build_evidence_item('Ghost Orbs') : ''}
+                ${data.ghost == "The Mimic" ? this.build_evidence_item('Orbe Fantasma') : ''}
             </div>
             <div class="ghost_nightmare_evidence">${data.nightmare_evidence?data.nightmare_evidence:''}</div>
             <div class="ghost_hunt_high">${data.hunt_sanity_high}</div>

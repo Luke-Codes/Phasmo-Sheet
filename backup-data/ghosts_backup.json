@@ -127,7 +127,7 @@
         "hunt_sanity_high": "50%",
         "evidence": [
           "Spirit Box",
-          "Ultraviolet",
+          "Ultravioleta",
           "DOTs"
         ],
         "nightmare_evidence": null,
@@ -211,8 +211,8 @@
         "hunt_sanity_high": "50%",
         "evidence": [
           "Spirit Box",
-          "Ultraviolet",
-          "Writing"
+          "Ultravioleta",
+          "Escrita Fantasma"
         ],
         "nightmare_evidence": null,
         "wiki": {
@@ -273,8 +273,8 @@
         "hunt_sanity_low": "12%",
         "hunt_sanity_high": "87%",
         "evidence": [
-          "Ultraviolet",
-          "Ghost Orbs",
+          "Ultravioleta",
+          "Orbe Fantasma",
           "DOTs"
         ],
         "nightmare_evidence": null,
@@ -363,8 +363,8 @@
         "hunt_sanity_high": "50%",
         "evidence": [
           "EMF 5",
-          "Ultraviolet",
-          "Freezing"
+          "Ultravioleta",
+          "Baixa Temperatura"
         ],
         "nightmare_evidence": null,
         "wiki": {
@@ -431,8 +431,8 @@
         "hunt_sanity_high": "60%",
         "evidence": [
           "Spirit Box",
-          "Ghost Orbs",
-          "Writing"
+          "Orbe Fantasma",
+          "Escrita Fantasma"
         ],
         "nightmare_evidence": null,
         "wiki": {
@@ -503,9 +503,9 @@
         "hunt_sanity_low": "50%",
         "hunt_sanity_high": "50%",
         "evidence": [
-          "Ghost Orbs",
-          "Writing",
-          "Freezing"
+          "Orbe Fantasma",
+          "Escrita Fantasma",
+          "Baixa Temperatura"
         ],
         "nightmare_evidence": null,
         "wiki": {
@@ -555,8 +555,8 @@
         "hunt_sanity_high": "35%",
         "evidence": [
           "EMF 5",
-          "Writing",
-          "Freezing"
+          "Escrita Fantasma",
+          "Baixa Temperatura"
         ],
         "nightmare_evidence": null,
         "wiki": {
@@ -657,9 +657,9 @@
         "hunt_sanity_low": "70%",
         "hunt_sanity_high": "100%",
         "evidence": [
-          "Ultraviolet",
-          "Writing",
-          "Freezing"
+          "Ultravioleta",
+          "Escrita Fantasma",
+          "Baixa Temperatura"
         ],
         "nightmare_evidence": null,
         "wiki": {
@@ -731,8 +731,8 @@
         "hunt_sanity_low": "50%",
         "hunt_sanity_high": "50%",
         "evidence": [
-          "Ghost Orbs",
-          "Freezing",
+          "Orbe Fantasma",
+          "Baixa Temperatura",
           "DOTs"
         ],
         "nightmare_evidence": null,
@@ -783,7 +783,7 @@
         "hunt_sanity_high": "50%",
         "evidence": [
           "EMF 5",
-          "Freezing",
+          "Baixa Temperatura",
           "DOTs"
         ],
         "nightmare_evidence": null,
@@ -856,7 +856,7 @@
         "hunt_sanity_high": "80%",
         "evidence": [
           "Spirit Box",
-          "Ghost Orbs",
+          "Orbe Fantasma",
           "DOTs"
         ],
         "nightmare_evidence": null,
@@ -929,11 +929,11 @@
         "hunt_sanity_low": "50%",
         "hunt_sanity_high": "50%",
         "evidence": [
-          "Ultraviolet",
-          "Ghost Orbs",
-          "Freezing"
+          "Ultravioleta",
+          "Orbe Fantasma",
+          "Baixa Temperatura"
         ],
-        "nightmare_evidence": "Freezing",
+        "nightmare_evidence": "Baixa Temperatura",
         "wiki": {
           "tells": [
             {
@@ -1021,7 +1021,7 @@
         "hunt_sanity_high": "50%",
         "evidence": [
           "EMF 5",
-          "Ultraviolet",
+          "Ultravioleta",
           "DOTs"
         ],
         "nightmare_evidence": "DOTs",
@@ -1075,8 +1075,8 @@
         "hunt_sanity_high": "50%",
         "evidence": [
           "EMF 5",
-          "Ultraviolet",
-          "Writing"
+          "Ultravioleta",
+          "Escrita Fantasma"
         ],
         "nightmare_evidence": null,
         "wiki": {
@@ -1126,8 +1126,8 @@
         "hunt_sanity_high": "100%",
         "evidence": [
           "Spirit Box",
-          "Ghost Orbs",
-          "Freezing"
+          "Orbe Fantasma",
+          "Baixa Temperatura"
         ],
         "nightmare_evidence": null,
         "wiki": {
@@ -1195,7 +1195,7 @@
         "evidence": [
           "EMF 5",
           "Spirit Box",
-          "Freezing"
+          "Baixa Temperatura"
         ],
         "nightmare_evidence": null,
         "wiki": {
@@ -1256,7 +1256,7 @@
         "hunt_sanity_high": "65%",
         "evidence": [
           "EMF 5",
-          "Ghost Orbs",
+          "Orbe Fantasma",
           "DOTs"
         ],
         "nightmare_evidence": null,
@@ -1334,10 +1334,10 @@
         "hunt_sanity_high": "50%",
         "evidence": [
           "EMF 5",
-          "Ultraviolet",
-          "Ghost Orbs"
+          "Ultravioleta",
+          "Orbe Fantasma"
         ],
-        "nightmare_evidence": "Ultraviolet",
+        "nightmare_evidence": "Ultravioleta",
         "wiki": {
           "tells": [
             {
@@ -1395,14 +1395,14 @@
         "hunt_sanity_high": "100%",
         "evidence": [
           "Spirit Box",
-          "Ultraviolet",
-          "Freezing"
+          "Ultravioleta",
+          "Baixa Temperatura"
         ],
         "nightmare_evidence": null,
         "wiki": {
           "tells": [
             {
-              "data": "Will always show Ghost Orbs as an additional evidence, even on 0 evidence",
+              "data": "Will always show Orbe Fantasma as an additional evidence, even on 0 evidence",
               "is_0_evi": true,
               "include_on_card": true
             }
@@ -1431,7 +1431,7 @@
           "confirmation_tests": [
             {
               "type": "Tell",
-              "data": "In 0 evidence, check the ghost's favorite room for Ghost Orbs. If there are Ghost Orbs, it is The Mimic",
+              "data": "In 0 evidence, check the ghost's favorite room for Orbe Fantasma. If there are Orbe Fantasma, it is The Mimic",
               "definitive": true,
               "image": null
             },
@@ -1445,7 +1445,7 @@
           "elimination_tests": [
             {
               "type": "Tell",
-              "data": "Check the ghost's favorite room for Ghost Orbs. If there are <i>no</i> Ghost Orbs, it is <i>not</i> The Mimic",
+              "data": "Check the ghost's favorite room for Orbe Fantasma. If there are <i>no</i> Orbe Fantasma, it is <i>not</i> The Mimic",
               "image": null
             }
           ]
@@ -1463,8 +1463,8 @@
         "hunt_sanity_high": "50%",
         "evidence": [
           "Spirit Box",
-          "Writing",
-          "Freezing"
+          "Escrita Fantasma",
+          "Baixa Temperatura"
         ],
         "nightmare_evidence": "Spirit Box",
         "wiki": {
@@ -1553,7 +1553,7 @@
         "hunt_sanity_high": "40%",
         "evidence": [
           "Spirit Box",
-          "Writing",
+          "Escrita Fantasma",
           "DOTs"
         ],
         "nightmare_evidence": "Spirit Box",
@@ -1629,8 +1629,8 @@
         "hunt_sanity_low": "15%",
         "hunt_sanity_high": "75%",
         "evidence": [
-          "Ghost Orbs",
-          "Writing",
+          "Orbe Fantasma",
+          "Escrita Fantasma",
           "DOTs"
         ],
         "nightmare_evidence": null,
@@ -1705,11 +1705,11 @@
     "version": "b0.10.0.1",
     "evidence": [
       "EMF 5",
-      "Ultraviolet",
-      "Writing",
-      "Freezing",
+      "Ultravioleta",
+      "Escrita Fantasma",
+      "Baixa Temperatura",
       "DOTs",
-      "Ghost Orbs",
+      "Orbe Fantasma",
       "Spirit Box"
     ]
   }
