@@ -8,10 +8,8 @@
     <meta name="viewport" content="user-scalable=0">
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tybayn.github.io/phasmo-cheat-sheet/">
-    <meta property="og:title" content="Zero-Network | Unofficial Phasmo Cheat Sheet">
-    <meta property="og:description" content="The ultimate Phasmo Cheat Sheet! Smart filters, ghost behaviors, footstep speeds, bpm finder, maps, and more!">
-    <meta property="og:image" content="https://i.imgur.com/8PJDBnm.png">
+    <meta property="og:url" content="https://luke-codes.github.io/Phasmo-Sheet/">
+        <meta property="og:image" content="https://i.imgur.com/8PJDBnm.png">
 
     <script>
         AbortSignal.timeout = ms => {
@@ -36,9 +34,9 @@
 
 <body>
     <div id="resetMenu" style="display: none;">
-        <button onclick="resetGhosts()">Reset Ghosts</button>
-        <button onclick="resetFilters()">Reset Filters</button>
-        <button onclick="resetNoSave()">Reset All without saving</button>
+        <button onclick="resetGhosts()">Resetar Fantasma</button>
+        <button onclick="resetFilters()">Resetar Filtros</button>
+        <button onclick="resetNoSave()">Resetar Tudo</button>
     </div>
 
    
@@ -222,7 +220,7 @@
         <span class="icon" onclick="showLinks()"></span>
 
         <div class="settings_title yfont white">Links</div>
-        <div class="title_note">( '◄' to close )</div>
+        <div class="title_note">( '◄' para fechar )</div>
         <div class="info_block">
             <div class="modifier_volume yfont white">Voice Commands</div>
             <div class="journal_link vc_link">
@@ -236,7 +234,7 @@
             <div class="modifier_volume yfont white">Shared Journal Link</div>
             <div class="journal_link">
                 <input type="text" placeholder="XXXXXX" id="room_id" class="text" value="Connecting..." disabled style="color:#444;">
-                <div id="room_id_cover" class="copy_cover" style="display:none;">Copied!</div>
+                <div id="room_id_cover" class="copy_cover" style="display:none;">Copiado!</div>
                 <img class="clipboard_icon" src="imgs/copy.png" onclick="copy_url_code()">
                 <div id="link_pos" style="display: none;"></div>
                 <div class="journal_link_buttons">
@@ -254,7 +252,7 @@
             </div>
             <div class="journal_link">
                 <input type="text" placeholder="DL-XXXXX" id="link_id" class="text" value="DL-XXXXX" disabled style="color:#444;">
-                <div id="link_id_cover" class="copy_cover" style="display:none;">Copied!</div>
+                <div id="link_id_cover" class="copy_cover" style="display:none;">Copiado!</div>
                 <img class="clipboard_icon" src="imgs/copy.png" onclick="copy_code()">
                 <div class="journal_link_buttons">
                     <button id="link_id_create" class="desktop_link_button" style="display: none;" onclick="create_link(false)">Create</button>
@@ -324,7 +322,7 @@
         </div>
         <span class="icon" onclick="showEvent()"></span>
         <div class="settings_title yfont white">Current Event</div>
-        <div class="title_note">( '◄' to close )</div>
+        <div class="title_note">( '◄' para fechar )</div>
         <div class="info_block">
             <div id="event_title">No current events!</div>
             <hr>
@@ -347,7 +345,7 @@
 
     <div id="maps_box" style="left: -1000px;">
         <div id="maps_tab" onclick="showMaps()">
-            <div class="tab_rotate">Maps</div>
+            <div class="tab_rotate">Mapas</div>
         </div>
         <span class="icon" onclick="showMaps()"></span>
 
@@ -358,14 +356,14 @@
             <div class="hover_zoom">+  zoom</div>
         </div>
         <div class="flex-holder-right">
-            <div class="maps_credit">Map images belong to <a href="https://www.reddit.com/user/Fantismal" target="_blank">Fantismal</a> (<a href="https://imgur.com/a/iEI0tJo" target="_blank">Images</a>)</div>
+            <!-- <div class="maps_credit">Map images belong to <a href="https://www.reddit.com/user/Fantismal" target="_blank">Fantismal</a> (<a href="https://imgur.com/a/iEI0tJo" target="_blank">Images</a>)</div> -->
         </div>
         <div id="maps_list" class="maps_buttons"></div>
-        <div class="flex-holder-right">
+        <!-- <div class="flex-holder-right">
             <a id="map-explorer-link-2" target="_blank" href="https://zero-network.net/phasmo-cheat-sheet/map-explorer/">
                 <div class="button-gray">Map Explorer »</div>
             </a>
-        </div>
+        </div> -->
     </div>
 
     <div id="news_box" style="right:-366px;">
@@ -373,12 +371,12 @@
             <img src="imgs/news-icon.png" width="24px" id="feed_icon_img"/>
         </div>
         <span class="icon" onclick="showNews()"></span>
-        <div class="settings_title yfont white">News Feed</div>
+        <div class="settings_title yfont white">Feed de Updates</div>
         <div class="info_block" id="feed_info_block">
         </div>
-        <a href='https://ko-fi.com/H2H7OPG9V' target='_blank' style="margin-left: calc(50% - 70px);">
+   <!--      <a href='https://ko-fi.com/H2H7OPG9V' target='_blank' style="margin-left: calc(50% - 70px);">
             <img height='36' style='border:0px;height:36px;margin-bottom: 20px; background-color: #ccc; border-radius: 10px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-        </a>
+        </a> -->
     </div>
 
     <div id="lang_blockout" class="blockout" style="display: none;" onclick="showLanguage()"></div>
@@ -405,11 +403,11 @@
         </div>
     </div>
 
-    <a href="https://discord.gg/afpvC7Bf7Y" target="_blank" >
+<!--     <a href="https://discord.gg/afpvC7Bf7Y" target="_blank" >
         <div id="discord_tab">
             <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6cc3c481a15a141738_icon_clyde_white_RGB.png" width="21">
         </div>
-    </a>
+    </a> -->
 
     <div id="debug_tab" style="display: none;" onclick="showDebug()">
         <img src="imgs/terminal.png" width="21">
